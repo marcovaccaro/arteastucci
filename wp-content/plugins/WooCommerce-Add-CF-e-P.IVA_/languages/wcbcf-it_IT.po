@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Aggiungere CF e P.IVA v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-12-30 17:11+0100\n"
+"Last-Translator: Luca Chiappin  <ciao65boy@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wcbcf
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: wc-brazilian-checkout-fields.php:0
+msgid "http://www.netstarsolution.net/"
+msgstr ""
+
+# @ wcbcf
+#. translators: plugin header field 'Author'
+#: wc-brazilian-checkout-fields.php:0
+msgid "claudiosanches modified by netstarsolution"
+msgstr ""
+
+# @ wcbcf
+#. translators: plugin header field 'Version'
+#: wc-brazilian-checkout-fields.php:0
+msgid "1.0"
+msgstr ""
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:157 wc-brazilian-checkout-fields.php:168
+msgid "Brazilian Checkout Fields"
+msgstr "Campi Italiani Per WooCommerce"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:204
+msgid "Checkout Custom Fields:"
+msgstr "Campi personalizzati per la Cassa:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:212
+msgid "Display Person Type:"
+msgstr "Visualizzara Tipo Di Persona:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:219
+msgid ""
+"If checked show the Person Type option and CPF, Company and CNJP fields in "
+"billing options."
+msgstr ""
+"Selezionando questa opzione si visualizzerà il <strong>Tipo di Persona</"
+"strong> e il relativo <strong>CF e P.IVA</strong>"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:226
+msgid "Display Birthdate and Sex:"
+msgstr "Visualizza data di nascita e Sesso:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:233
+msgid "If checked show the Birthdate and Sex field in billing options."
+msgstr ""
+"Se selezionato si visualizzeranno i field della <strong>Data di Nascita</"
+"strong> e il <strong>Sesso</strong> nel Checkout."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:240
+msgid "Display Neighborhood:"
+msgstr "Visualizza Quartiere/Frazione:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:247
+msgid "If checked show the Neighborhood field in billing and shipping options."
+msgstr ""
+"Selezionando questa opzione si visualizzerà il field <strong>Quartiere/"
+"Frazione</strong> nell' inserimento dell' indirizzo."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:254
+msgid "Display Cell Phone:"
+msgstr "Visualizza Cellulare:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:261
+msgid "If checked show the Cell Phone field in billing options."
+msgstr ""
+"Selezionando questa opzione si visualizzerà il field <strong>Cellulare</"
+"strong> nell' inserimento dei dati personali."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:268
+msgid "jQuery Options:"
+msgstr "Opzioni jQuery:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:276
+msgid "Enable Mail Check:"
+msgstr "Abilita il Mail Check:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:283
+msgid "If checked informs typos in email to users."
+msgstr ""
+"Selezionando questa opzione si avvisa l' utente se commette eventuali errori "
+"di battitura nell inserimento del proprio indirizzo mail."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:290
+msgid "Enable Input Mask:"
+msgstr "Attiva maschera di input:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:297
+msgid ""
+"If checked create masks fill for in fields of CPF, CNPJ, Birthdate, Phone "
+"and Cell Phone."
+msgstr ""
+"Selezionando questa opzione si creano maschere di riempimento per i campi "
+"<strong>CF - P.IVA - CAP</strong>."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:304
+msgid "Enable Address Autocomplete:"
+msgstr "Abilita Autocompletamento indirizzo:"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:311
+msgid ""
+"If checked automatically complete the address fields based on the zip code."
+msgstr ""
+"[NON ATTIVARE | NON FUNZIONA IN ITALIA] Selezionando questa opzione lo "
+"script completerà l' indirizzo in base al CAP"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:398 wc-brazilian-checkout-fields.php:615
+msgid "First Name"
+msgstr "Nome"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:399 wc-brazilian-checkout-fields.php:616
+msgctxt "placeholder"
+msgid "First Name"
+msgstr "Nome"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:406 wc-brazilian-checkout-fields.php:623
+msgid "Last Name"
+msgstr "Cognome"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:407 wc-brazilian-checkout-fields.php:624
+msgctxt "placeholder"
+msgid "Last Name"
+msgstr "Cognome"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:419
+msgid "Person type"
+msgstr "Tipo di persona"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:423 wc-brazilian-checkout-fields.php:479
+msgid "Select"
+msgstr "Seleziona"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:424
+msgid "Individuals"
+msgstr "Persona Fisica"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:425
+msgid "Legal Person"
+msgstr "Azienda"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:431 wc-brazilian-checkout-fields.php:810
+#: wc-brazilian-checkout-fields.php:895
+msgid "CPF"
+msgstr "Codice Fiscale"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:432
+msgctxt "placeholder"
+msgid "CPF"
+msgstr "Codice Fiscale"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:439 wc-brazilian-checkout-fields.php:454
+#: wc-brazilian-checkout-fields.php:632 wc-brazilian-checkout-fields.php:814
+msgid "Company Name"
+msgstr "Nome Azienda"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:440 wc-brazilian-checkout-fields.php:455
+msgctxt "placeholder"
+msgid "Company Name"
+msgstr "Nome Azienda"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:446 wc-brazilian-checkout-fields.php:813
+#: wc-brazilian-checkout-fields.php:899
+msgid "CNPJ"
+msgstr "P. IVA"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:447
+msgctxt "placeholder"
+msgid "CNPJ"
+msgstr "P. IVA"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:464 wc-brazilian-checkout-fields.php:822
+#: wc-brazilian-checkout-fields.php:912
+msgid "Birthdate"
+msgstr "Data di nascita"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:465
+msgctxt "placeholder"
+msgid "Birthdate"
+msgstr "Data di nascita"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:474 wc-brazilian-checkout-fields.php:825
+#: wc-brazilian-checkout-fields.php:916
+msgid "Sex"
+msgstr "Sesso"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:480
+msgid "Female"
+msgstr "Donna"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:481
+msgid "Male"
+msgstr "Uomo"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:490 wc-brazilian-checkout-fields.php:640
+#: wc-brazilian-checkout-fields.php:923 wc-brazilian-checkout-fields.php:990
+msgid "Country"
+msgstr "Paese"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:491 wc-brazilian-checkout-fields.php:641
+msgctxt "placeholder"
+msgid "Country"
+msgstr "Paese"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:498 wc-brazilian-checkout-fields.php:648
+msgid "Post Code"
+msgstr "CAP"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:499 wc-brazilian-checkout-fields.php:649
+msgctxt "placeholder"
+msgid "Post Code"
+msgstr "CAP"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:507 wc-brazilian-checkout-fields.php:657
+msgid "Address"
+msgstr "Indirizzo"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:508 wc-brazilian-checkout-fields.php:658
+msgctxt "placeholder"
+msgid "Address"
+msgstr "Indirizzo"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:515 wc-brazilian-checkout-fields.php:665
+msgid "Address line 2"
+msgstr "Indirizzo Secondario"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:516
+msgctxt "placeholder"
+msgid "Address line 2 (optional)"
+msgstr "Indirizzo Secondario (opzioanle)"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:526 wc-brazilian-checkout-fields.php:676
+#: wc-brazilian-checkout-fields.php:767 wc-brazilian-checkout-fields.php:783
+#: wc-brazilian-checkout-fields.php:831 wc-brazilian-checkout-fields.php:861
+#: wc-brazilian-checkout-fields.php:942 wc-brazilian-checkout-fields.php:1009
+msgid "Neighborhood"
+msgstr "Quartiere/Frazione"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:527
+msgctxt "placeholder"
+msgid "Neighborhood"
+msgstr "Quartiere/Frazione"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:535 wc-brazilian-checkout-fields.php:685
+#: wc-brazilian-checkout-fields.php:949 wc-brazilian-checkout-fields.php:1016
+msgid "City"
+msgstr "Comune"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:536 wc-brazilian-checkout-fields.php:686
+msgctxt "placeholder"
+msgid "City"
+msgstr "Comune"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:544 wc-brazilian-checkout-fields.php:694
+msgid "State"
+msgstr "Provincia"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:545 wc-brazilian-checkout-fields.php:695
+msgctxt "placeholder"
+msgid "State"
+msgstr "Provincia"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:555 wc-brazilian-checkout-fields.php:581
+msgid "Phone"
+msgstr "Telefono"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:556 wc-brazilian-checkout-fields.php:582
+msgctxt "placeholder"
+msgid "Phone"
+msgstr "Telefono"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:563 wc-brazilian-checkout-fields.php:838
+#: wc-brazilian-checkout-fields.php:964
+msgid "Cell Phone"
+msgstr "Cellulare"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:564
+msgctxt "placeholder"
+msgid "Cell Phone (optional)"
+msgstr "Cellulare (opzionale)"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:571 wc-brazilian-checkout-fields.php:590
+#: wc-brazilian-checkout-fields.php:971
+msgid "Email"
+msgstr "Email"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:572 wc-brazilian-checkout-fields.php:591
+msgctxt "placeholder"
+msgid "Email"
+msgstr "Email"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:633
+msgctxt "placeholder"
+msgid "Company Name (optional)"
+msgstr "Nome Azienda (opzionale)"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:666
+msgctxt "placeholder"
+msgid "Address line 2  (optional)"
+msgstr "Indirizzo Secondario (opzionale)"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:677
+msgctxt "placeholder"
+msgid "Neighborhood (optional)"
+msgstr "Quartiere/Frazione (opzionale)"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:719
+msgid "<strong>CPF</strong> is a required field."
+msgstr "<strong>CF</strong> é un campo obbligatorio."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:724
+msgid "<strong>Company</strong> is a required field."
+msgstr "<strong>Azienda</strong> é un campo obbligatorio."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:729
+msgid "<strong>CNPJ</strong> is a required field."
+msgstr "<strong>P.IVA</strong> é un campo obbligatorio."
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:802 wc-brazilian-checkout-fields.php:857
+msgid "Extra information"
+msgstr "Altre Informazioni"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:882
+msgid "Customer Billing Address"
+msgstr "Indirizzo di Fatturazione Cliente"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:884 wc-brazilian-checkout-fields.php:978
+msgid "First name"
+msgstr "Nome"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:888 wc-brazilian-checkout-fields.php:982
+msgid "Last name"
+msgstr "Cognome"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:903 wc-brazilian-checkout-fields.php:986
+msgid "Company"
+msgstr "Azienda"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:924 wc-brazilian-checkout-fields.php:991
+msgid "2 letter Country code"
+msgstr "2 lettere dello Stato (esempio IT)"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:927 wc-brazilian-checkout-fields.php:994
+msgid "Postcode"
+msgstr "CAP"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:931 wc-brazilian-checkout-fields.php:998
+msgid "Address 1"
+msgstr "Indirizzo"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:935 wc-brazilian-checkout-fields.php:1002
+msgid "Address 2"
+msgstr "Indirizzo Secondario"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:953 wc-brazilian-checkout-fields.php:1020
+msgid "State/County"
+msgstr "Provincia/Stato"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:954 wc-brazilian-checkout-fields.php:1021
+msgid "Country or state code"
+msgstr "Stato"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:957
+msgid "Telephone"
+msgstr "Telefono"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:976
+msgid "Customer Shipping Address"
+msgstr "Indirizzo di Spedizione"
+
+# @ wcbcf
+#: wc-brazilian-checkout-fields.php:1090
+#, php-format
+msgid ""
+"WooCommerce Brazilian Checkout Fields depends on <a href=\"%s\">WooCommerce</"
+"a> to work!"
+msgstr ""
+"WooCommerce Aggiungere CF e P.IVA dipende da <a href=\"%s\">WooCommerce</a> "
+"per funzionare!"
+
+# @ wcbcf
+#. translators: plugin header field 'Name'
+#: wc-brazilian-checkout-fields.php:0
+msgid "WooCommerce Extra Checkout Fields for Brazil"
+msgstr ""
+
+# @ wcbcf
+#. translators: plugin header field 'Description'
+#: wc-brazilian-checkout-fields.php:0
+msgid ""
+"Adiciona novos campos para Pessoa Física ou Juridíca, Data de Nascimento, "
+"Sexo, Bairro e Celular. Além de máscaras em campos, aviso de e-mail "
+"incorreto e auto preenchimento dos campos de endereço pelo CEP."
+msgstr ""
